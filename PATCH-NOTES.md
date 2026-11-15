@@ -1,8 +1,13 @@
-# Patch notes — da R66 até a R104
+# Patch notes — da R66 até a R105
 
-Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R104 (v1.0.149-snapshot.104)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
+Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R105 (v1.0.150-snapshot.105)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
 
 ---
+
+## R105 — 1.0.150-snapshot.105
+Junta a R104 com:
+- **Clubes abertos para os membros:** dá para entrar em qualquer clube e enfrentar os cinco membros desde o início. A regra de liberação vale só para o **Mestre**, que aparece com cadeado e o motivo (Isaac em repouso, Nikki em viagem, Ken pede 300 cartas, Murray pede 3 Mestres vencidos). No mapa da ilha, nenhum clube aparece mais fechado.
+- **Avatares:** num jogo novo, a escolha de avatar mostra só os avatares iniciais; os duelistas só aparecem depois de vencidos. Mark e Mint escolhidos ficam redondos.
 
 ## R104 — 1.0.149-snapshot.104
 Junta a R103 com tudo o que foi feito depois dela.
