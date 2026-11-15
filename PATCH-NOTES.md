@@ -1,8 +1,11 @@
-# Patch notes — da R66 até a R105
+# Patch notes — da R66 até a R106
 
-Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R105 (v1.0.150-snapshot.105)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
+Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R106 (v1.0.151-snapshot.106)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
 
 ---
+
+## R106 — 1.0.151-snapshot.106
+- **Ajustes no celular:** o menu do avatar (toque no seu nome, no topo) agora tem **Ajustes**, **Ajuda** e **Saves e backups**. No celular esses botões do topo ficavam escondidos e não havia como abrir os Ajustes — por exemplo, para virar as cartas do adversário em Ajustes › Mesa e animações.
 
 ## R105 — 1.0.150-snapshot.105
 Junta a R104 com:
