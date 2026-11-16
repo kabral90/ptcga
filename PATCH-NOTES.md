@@ -1,15 +1,31 @@
-# Patch notes — da R66 até a R106
+# Patch notes — da R66 até a R110
 
-Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R106 (v1.0.151-snapshot.106)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
+Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R110 (v1.0.155-snapshot.110)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
 
 ---
 
+## R110 — 1.0.155-snapshot.110
+- **Mesa virada:** o número do dano que o adversário sofre agora aparece de pé para você também no celular.
+- **Defender e PlusPower** saem do Pokémon e voam até o descarte quando o efeito acaba (antes sumiam e apareciam no descarte).
+- **Mestres bloqueados:** ao tocar, volta a aparecer a fala do Sam ou do Mestre; na lista continua só "Bloqueado".
+
+## R109 — 1.0.154-snapshot.109
+- Mestre de clube ainda não liberado aparece só como **Bloqueado** na lista.
+
+## R108 — 1.0.153-snapshot.108
+- A opção **Cartas do adversário** (De frente para mim / Viradas, como numa mesa) agora fica em **Aparência padrão › Mesa**, no menu do seu avatar.
+- O menu do avatar voltou a ser como na R105 (sem os atalhos de Ajustes, Ajuda e Saves da R106).
+
+## R107 — 1.0.152-snapshot.107
+- **Mesa virada de verdade** (Cartas do adversário › "Viradas, como numa mesa"; na R108 a opção foi para a Aparência padrão): tudo do adversário fica virado para ele — cartas, Energias, PS, deck, descarte, prêmios, a mão e o tapete dele. Só o número do dano que ele sofre fica virado para você. O lado dele espelha como numa mesa real (prêmios à direita, deck e descarte à esquerda) e as cartas dele já se movem viradas. Em "De frente para mim", nada muda.
+- **Seletor de velocidade da partida:** mudar a velocidade na pausa não tinha efeito para quem já tinha escolhido uma velocidade nos Ajustes. Agora funciona na hora.
+
 ## R106 — 1.0.151-snapshot.106
-- **Ajustes no celular:** o menu do avatar (toque no seu nome, no topo) agora tem **Ajustes**, **Ajuda** e **Saves e backups**. No celular esses botões do topo ficavam escondidos e não havia como abrir os Ajustes — por exemplo, para virar as cartas do adversário em Ajustes › Mesa e animações.
+- Atalhos de **Ajustes**, **Ajuda** e **Saves e backups** no menu do avatar (retirados na R108).
 
 ## R105 — 1.0.150-snapshot.105
 Junta a R104 com:
-- **Clubes abertos para os membros:** dá para entrar em qualquer clube e enfrentar os cinco membros desde o início. A regra de liberação vale só para o **Mestre**, que aparece com cadeado e o motivo (Isaac em repouso, Nikki em viagem, Ken pede 300 cartas, Murray pede 3 Mestres vencidos). No mapa da ilha, nenhum clube aparece mais fechado.
+- **Clubes abertos para os membros:** dá para entrar em qualquer clube e enfrentar os cinco membros desde o início. A regra de liberação vale só para o **Mestre**, que aparece com cadeado. No mapa da ilha, nenhum clube aparece mais fechado.
 - **Avatares:** num jogo novo, a escolha de avatar mostra só os avatares iniciais; os duelistas só aparecem depois de vencidos. Mark e Mint escolhidos ficam redondos.
 
 ## R104 — 1.0.149-snapshot.104
