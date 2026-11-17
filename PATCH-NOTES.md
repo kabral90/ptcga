@@ -1,8 +1,18 @@
-# Patch notes — da R66 até a R110
+# Patch notes — da R66 até a R112
 
-Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R110 (v1.0.155-snapshot.110)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
+Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R112 (v1.0.157-snapshot.112)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
 
 ---
+
+## R112 — 1.0.157-snapshot.112
+- **Vending Machine (116 cartas) e Máquina Booster Can (`S62`):** nova aba na Gazeta desbloqueada após derrotar 3 Líderes de Ginásio em Kanto (com aviso único do Sam), máquina 3D de latinhas em cor única por **200 Créditos**, entregando **5 cartas aleatórias sem distinção de raridade**, com som de abertura de latinha, revelação em tela cheia centralizada e resumo em `3 + 2`. Coleção disponível na Coleção (com símbolo Pokébola e logo próprios) e no Editor de Decks, fora dos baralhos aleatórios de NPC.
+- **Cassino da Ilha, Cassino de Celadon e Tickets:** nova moeda **Tickets** exibida à esquerda dos Créditos (câmbio 10 Créditos = 1 Ticket), caça-níquel com rolos só de ícones e botões `PARAR 1/2/3`, aba `Cassino` no Clube Elétrico travada até derrotar 3 membros (com aviso do Sam), marcador do Cassino de Celadon em Kanto e **Loja Intro Pack** para adquirir as 16 cartas `intro`.
+- **Autobuilder e Encontros (`!`):** checagem universal no Autobuilder para impedir mistura de pré-evoluções incompatíveis ou excesso em linhas evolutivas compartilhadas; placa dos encontros aleatórios não exibe mais dificuldade nem turno do oponente.
+
+## R111 — 1.0.156-snapshot.111
+- **Vitória dos Mestres:** a entrega da moeda do Mestre tem prioridade absoluta sobre avisos do Sam, selos e tutorial da Feira, com intervalo mínimo de 2 segundos entre mensagens e sem sobreposição.
+- **Encontros aleatórios (`!`):** tocar no marcador abre o banner inferior; tocar em **Duelar** entra direto na partida com **4 prêmios** (sem passar pelo Jogo Rápido), e a dificuldade escala pelos Mestres vencidos (`0–3` Fácil, `4–6` Médio, `7–8` Difícil).
+- **Decks por campanha e Autobuilder:** encontros seguem a etapa da campanha (Ilha: Base/Jungle/Fossil; pós-Rocket: +Team Rocket; Kanto: foco em Gym Heroes/Challenge; Johto: Neo 1–4), com geração em pirâmide, filtro de Treinadores sem alvo e Autobuilder do jogador respeitando o estoque real e decks parciais.
 
 ## R110 — 1.0.155-snapshot.110
 - **Mesa virada:** o número do dano que o adversário sofre agora aparece de pé para você também no celular.
