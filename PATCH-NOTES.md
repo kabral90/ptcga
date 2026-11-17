@@ -1,8 +1,12 @@
-# Patch notes — da R66 até a R113
+# Patch notes — da R66 até a R114
 
-Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R113 (v1.0.158-snapshot.113)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
+Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R114 (v1.0.159-snapshot.114)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
 
 ---
+
+## R114 — 1.0.159-snapshot.114
+- **Save compartilhado na nuvem entre aparelhos (GitHub Gist secreto):** novo painel na tela **Saves e backups (`S31`)** para conectar um token clássico do GitHub (permissão `gist`), salvando o token apenas localmente no aparelho.
+- **Auto-descoberta e sincronização em segundo plano:** o primeiro aparelho cria um **Gist secreto** (`ptcga-cloud-save-v1`) com o pacote oficial `.campaign-profile.zip`; novos aparelhos só precisam colar o mesmo token para restaurar o perfil automaticamente. Sincroniza ao abrir o jogo, ao progredir fora de duelo e ao sair/minimizar, exibindo modal comparativo caso dois aparelhos avancem offline.
 
 ## R113 — 1.0.158-snapshot.113
 - **Versão consolidada para atualização automática:** inclui todas as novidades de **R112** e **R112-2** com `APP_BUILD = 113` e tag `v1.0.158-snapshot.113` para que versões R110–R112 puxem a atualização automaticamente pelo Sam.
