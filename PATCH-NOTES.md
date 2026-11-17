@@ -1,10 +1,11 @@
-# Patch notes — da R66 até a R112-2
+# Patch notes — da R66 até a R113
 
-Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R112-2 (v1.0.157-snapshot.112-2)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
+Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R113 (v1.0.158-snapshot.113)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
 
 ---
 
-## R112-2 — 1.0.157-snapshot.112-2
+## R113 — 1.0.158-snapshot.113
+- **Versão consolidada para atualização automática:** inclui todas as novidades de **R112** e **R112-2** com `APP_BUILD = 113` e tag `v1.0.158-snapshot.113` para que versões R110–R112 puxem a atualização automaticamente pelo Sam.
 - **Gacha & Booster Can:** pré-carregamento simultâneo dos modelos 3D no boot/Início para abrir direto em 3D sem piscar desenho 2D; `Booster Can` oculta da Gazeta até derrotar **3 Mestres da Ilha**, sem dicas de requisito quando acessada travada; botão do Cassino bloqueado no Clube Elétrico mostra apenas **`🔒 Cassino`** e `"O Cassino está em reforma. Volte depois!"`.
 
 ## R112 — 1.0.157-snapshot.112
