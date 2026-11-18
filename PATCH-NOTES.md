@@ -1,8 +1,15 @@
-# Patch notes — da R66 até a R115
+# Patch notes — da R66 até a R116
 
-Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R115 (v1.0.160-snapshot.115)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
+Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R116 (v1.0.161-snapshot.116)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
 
 ---
+
+## R116 — 1.0.161-snapshot.116
+- **Tela Inicial finalizada com ativos oficiais do jogo:**
+  - **Continuar Campanha:** usa os mapas oficiais da campanha (`Ilha dos Clubes`, `Base Rocket`, `Kanto` e `Grande Salão`) conforme o ato atual.
+  - **Gachamon:** usa render 3D oficial da máquina de cápsulas do jogo com badge `GIRO GRÁTIS` + contagem de giros grátis e vales.
+  - **Mural de Eventos:** exibe mural de cortiça com calendário e aviso destacado acima da barra `Mural de Eventos`.
+  - Inclui também o fundo claro com marca d'água sutil de Pokébola, remoção do botão Jogo Rápido na Home (encontros `!` mantidos), remoção da aba Eventos da Gazeta, economia de 1ª compra/recompra de decks, premiações reajustadas e as 16 novas artes do Intro Pack.
 
 ## R115 — 1.0.160-snapshot.115
 - **Tela Inicial repaginada & Mural de Eventos:** fundo claro com marca d'água sutil de Pokébola e barra superior mais limpa; removido o botão Jogo Rápido (preservando os encontros `!`); novo card **Gachamon** com badge `GIRO GRÁTIS` + contagem de giros grátis e vales; card **Continuar Campanha** com arte ilustrada dinâmica por ato e selo de progresso; card **Mural de Eventos** com composição temática (troféu + carta holo + raio). A aba `Eventos` foi removida da Gazeta.
