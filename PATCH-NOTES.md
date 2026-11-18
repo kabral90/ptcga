@@ -1,8 +1,19 @@
-# Patch notes — da R66 até a R114
+# Patch notes — da R66 até a R115
 
-Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R114 (v1.0.159-snapshot.114)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
+Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R115 (v1.0.160-snapshot.115)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
 
 ---
+
+## R115 — 1.0.160-snapshot.115
+- **Tela Inicial repaginada & Mural de Eventos:** fundo claro com marca d'água sutil de Pokébola e barra superior mais limpa; removido o botão Jogo Rápido (preservando os encontros `!`); novo card **Gachamon** com badge `GIRO GRÁTIS` + contagem de giros grátis e vales; card **Continuar Campanha** com arte ilustrada dinâmica por ato e selo de progresso; card **Mural de Eventos** com composição temática (troféu + carta holo + raio). A aba `Eventos` foi removida da Gazeta.
+- **Economia de decks (1ª compra e recompra):** preços iniciais diferenciados (`500` Base Set, `550` Jungle/Fossil/Team Rocket, `600` Base Set — Reforço, `750` Gym Heroes, `800` Gym Challenge) e recompra baseada na soma das cartas avulsas do deck (sem Energias) com desconto de `25%` / `20%` / `15%`.
+- **Premiações de batalha reajustadas:**
+  - Membros de Clube: `100` créditos + `1` booster (1ª) / `100` créditos (revanche); Mestres: `250` + `2` boosters (1ª) / `1` booster (revanche).
+  - Equipe Rocket: Soldados = `100` + `1` booster Team Rocket (1ª e vitória na revanche); Comandantes = `200` + `1` booster Team Rocket (1ª) / `1` booster Team Rocket (vitória na revanche).
+  - Rotas `rt1–rt8`: `120` + `1` booster (1ª) / `50` créditos por prêmio + `1` booster ao vencer pegando todos (revanche).
+  - Grande Salão: `750` + `1` booster de cada coleção liberada (1ª) / `240` créditos (revanche).
+  - Ronald: `500` créditos ao vencer (ticket e revanche em Kanto); líderes de Kanto (`BOSS`/`FINAL`): `1` booster ao vencer na revanche; encontros aleatórios (`!`): `50` / `100` / `150` créditos.
+- **Intro Pack:** atualizadas todas as 16 artes das cartas do conjunto Intro Pack.
 
 ## R114 — 1.0.159-snapshot.114
 - **Save compartilhado na nuvem entre aparelhos (GitHub Gist secreto):** novo painel na tela **Saves e backups (`S31`)** para conectar um token clássico do GitHub (permissão `gist`), salvando o token apenas localmente no aparelho.
