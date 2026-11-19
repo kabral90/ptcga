@@ -1,8 +1,25 @@
-# Patch notes — da R66 até a R116
+# Patch notes — da R66 até a R118
 
-Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R116 (v1.0.161-snapshot.116)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
+Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R118 (v1.0.163-snapshot.118)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
 
 ---
+
+## R118 — 1.0.163-snapshot.118
+- **Sala de Troca Online modernizada (`S63` / aba Troca):**
+  - Barra superior única compacta (`← Sair`, pílula escura/dourada copiável `SALA <CÓDIGO>` e indicador online do amigo).
+  - **Mesa visual com 4 slots por lado:** mostra as cartas reais inteiras em miniatura nos slots (`Você envia` / `<Amigo> envia`), botão `×` para remover da sua oferta, toque em qualquer carta da mesa para abrir o modal de ampliação e contraste nítido entre **Travar Oferta** e **Confirmar Troca** (cinza até ambos travarem, verde quando pronto).
+  - **Grade visual e filtros no padrão da Coleção:** exibe apenas cartas obtidas (`quantity > 0`) das **6 coleções normais** (`Base Set` a `Gym Challenge`), com lupa no canto inferior esquerdo, busca por nome, faixa rápida horizontal de coleções e modal **Filtros da coleção** (Coleção, Tipo de Pokémon, Raridade e Tipo de carta). Recibo final de troca atualizado com miniaturas.
+- **Menu Decks e Tutorial do Sam:**
+  - Botão amarelo **Jogar (`▶`)** no menu **Decks (`S11`)** corrigido para salvar o deck selecionado (`roadmapRememberDeck`) e abrir diretamente a **Campanha (`S19`)** em vez da antiga tela aposentada `S14`.
+  - Tutorial guiado do **Sam** atualizado: fala do **Início (`S03`)** ajustada (Campanha, Boosters, Trocas, Mural de Eventos e Modo Online) e etapa antiga de **Jogo Rápido (`S54`)** substituída pela tela real do **Modo Online (`S63`)**.
+
+## R117 — 1.0.162-snapshot.117
+- **Modo Online via Cloudflare Workers + Durable Objects (`S63` `/online`):**
+  - **Duelos Online (1v1):** criação e entrada em salas por código curto de `5` letras, escolha de `4` ou `6` prêmios, motor autoritativo no servidor com privacidade anti-trapaça (mão, deck e prêmios do adversário ocultos na rede), suporte a reconexão por código + token e **0 recompensas** (sem créditos, boosters ou cosméticos).
+  - **Troca com Amigo (Online):** salas ao vivo com até `4` cartas por lado e trava dupla atômica (alterar qualquer carta destrava/desconfirma ambos os lados antes da confirmação final), aviso quando uma carta ofertada está em uso em deck salvo e atalho direto em **Trocas (`S55`)**.
+  - **Escopo de coleções no Online:** aceita apenas decks e trocas das **6 coleções normais** (`Base Set`, `Jungle`, `Fossil`, `Team Rocket`, `Gym Heroes` e `Gym Challenge`), bloqueando `GB Promos`, `Vending Machine` e `Intro Pack`.
+- **Tela Inicial, Gazeta & Side Deck:** card **Online** conectado com selo `1v1 · Trocas` e sprite oficial `Sleep_Linking_Cord.png`; leque de **Boosters** exibindo apenas coleções já destravadas; aba **Eventos** (`S53`) mantida dentro da Gazeta; cabeçalho sticky com botões **Voltar** e **Concluir** na tela de Side Deck.
+- **Sync GitHub (Gist) & Motor Unificado:** corrigido erro `Failed to fetch` ao baixar saves > `1 MB` (`truncated: true` via `raw_url` sem headers bloqueados por CORS + fallback `CapacitorHttp` + compressão Gzip retrocompatível), e motor/IA consolidados em fonte única (`ai-rules.js`).
 
 ## R116 — 1.0.161-snapshot.116
 - **Tela Inicial finalizada com ativos oficiais do jogo:**
