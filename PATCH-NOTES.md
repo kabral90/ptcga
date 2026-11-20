@@ -1,8 +1,17 @@
-# Patch notes — da R66 até a R122
+# Patch notes — da R66 até a R123
 
-Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R122 (v1.0.167-snapshot.122)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
+Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R123 (v1.0.168-snapshot.123)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
 
 ---
+
+## R123 — 1.0.168-snapshot.123
+- **Holofoil 3D sem sobrepor quadro de evolução (`scenes-CtYWx7MK.js`):**
+  - Calibrados os limites UV da janela de arte interna (`goArt` `FULL_PRINTING`: `{ u0: 0.112, v0: 0.492, u1: 0.888, v1: 0.873 }`, e `v0: 0.472` para Treinadores/Fósseis) e aplicado recorte elíptico `uHasEvo` / `evoCut` no shader `voGalaxy` para excluir o medalhão da pré-evolução em cartas Stage 1 e Stage 2.
+- **Modo Escuro acessível e completo (`index-D85to97h.js`, `system-DjmEcSme.js`, `ui-v3-r121.css`):**
+  - Adicionado interruptor reativo **Modo escuro** (com persistência em `localStorage`) no **Menu do Perfil** (avatar no topo esquerdo, junto de atalho **Ajustes**) e no topo de **Ajustes → Geral**.
+  - Tema escuro estendido à barra `.tabs`, popover de perfil, modais, dock, telas de troca, Feira e botões secundários.
+- **Repaginação das Telas de Troca (`club-island-r72.js`, `home-D6cY3P3a.js`, `ui-v3-r121.css`):**
+  - Novos modais de **Troca Relâmpago** (Mesma raridade) e **Troca Especial** (Promo) com banner do treinador, pílula do tipo, timer em destaque, balão da fala, palco com etiquetas **`VOCÊ RECEBE`** / **`SUA · ×N`** / **`Você não tem`**, seta **`⇄`**, grid **Escolha a carta** (`.swap-grid`) alinhado e atualização visual de `/trades` e Feira de Trocas.
 
 ## R122 — 1.0.167-snapshot.122
 - **Correção de Boot / Atualização sobre Save Existente (`IMPORT_INVALID`):**
