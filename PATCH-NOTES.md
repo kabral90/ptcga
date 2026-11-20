@@ -1,8 +1,14 @@
-# Patch notes — da R66 até a R121
+# Patch notes — da R66 até a R122
 
-Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R121 (v1.0.166-snapshot.121)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
+Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R122 (v1.0.167-snapshot.122)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
 
 ---
+
+## R122 — 1.0.167-snapshot.122
+- **Correção de Boot / Atualização sobre Save Existente (`IMPORT_INVALID`):**
+  - Restaurado o `contentHash` original do pacote base (`base@5.9.8`) em `content/manifest.json` e `base-5.9.8-8b50182b5d6f.json` para manter compatibilidade total com bancos SQLite já instalados da R110–R120 sem apagar ou bloquear saves antigos.
+  - Regras de desbloqueio (**Jungle** após **3 mestres**, **Fossil** após **6 mestres**) aplicadas em memória via `roadmapUnlockThresholds` dentro do pipeline de catálogo (`zl()`), preservando o hash em disco.
+  - Inclui todo o pacote visual V3, correção da pausa no duelo, ajustes da Ilha/Porto/Feira, e ativos/ajustes recentes presentes no bundle web (VS/Neo base de regras).
 
 ## R121 — 1.0.166-snapshot.121
 - **Redesign Visual V3 Unificado (`ui-v3-r121.css`):**
