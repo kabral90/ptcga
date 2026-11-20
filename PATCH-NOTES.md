@@ -1,8 +1,19 @@
-# Patch notes — da R66 até a R120
+# Patch notes — da R66 até a R121
 
-Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R120 (v1.0.165-snapshot.120)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
+Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R121 (v1.0.166-snapshot.121)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
 
 ---
+
+## R121 — 1.0.166-snapshot.121
+- **Redesign Visual V3 Unificado (`ui-v3-r121.css`):**
+  - Novo visual Pocket com superfícies translúcidas em **Modo Claro e Modo Escuro**, banner Hero de Campanha atualizado, faixa larga de **Boosters** com os pacotes inteiros sem corte, remoção do card redundante de Trocas da Home, novo ícone de calendário no **Mural de Eventos** e ícones monocromáticos de linha no dock inferior.
+  - Todos os menus, balões de fala/toasts, confirmações, modais do Pré-duelo (`Selecione seu deck` sem dica em texto verde do Sam), grade de decks (`Escolher deck` em **3 colunas** sem o rótulo `"60 cartas"`) e seletores de carta no duelo (apenas a carta, sem nome repetido) alinhados ao novo padrão.
+- **Pausa Real no Duelo & Navegação Direta:**
+  - Novo **Menu do duelo** centralizado com pausa real da sessão/IA enquanto aberto.
+  - Botão **Jogar** no dock abre diretamente o mapa da Ilha dos Clubes (`S19`).
+- **Ilha, Porto, Feira & Coleções:**
+  - **Feira** posicionada na zona comercial superior esquerda próxima ao farol (`428, 205`), **Troca Relâmpago** e pino **`?` do Imakuni** concentrados no **Porto** mantendo os demais ícones do mapa intactos.
+  - Desbloqueio rebalanceado: **Jungle** após **3 mestres** e **Fossil** após **6 mestres**.
 
 ## R120 — 1.0.165-snapshot.120
 - **Holofoil Galaxy / Cosmos nos Detalhes da Carta 3D (`S08` / `scenes-CtYWx7MK.js`):**
