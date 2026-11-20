@@ -1,8 +1,19 @@
-# Patch notes — da R66 até a R123
+# Patch notes — da R66 até a R124
 
-Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R123 (v1.0.168-snapshot.123)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
+Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R124 (v1.0.169-snapshot.124)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
 
 ---
+
+## R124 — 1.0.169-snapshot.124
+- **Animações de ataque estilo Game Boy (`gb-attack-fx-r123.js`, `gb-attack-fx.webp`, `match-tfSzEL_l.js`):**
+  - 95 animações (571 quadros) da folha TCG2 GBC, ligadas a 819 ataques por tipo/nome; tocam sobre o Pokémon atingido quando o ataque causa dano (limite de 1,3 s por golpe).
+  - Novo interruptor **Animações de ataque** em **Ajustes → Mesa e animações** (`system-DjmEcSme.js`, chave `pk.attackFx`); também respeita *Reduzir movimento* do sistema.
+- **Brilhos na abertura de boosters (`booster-glow-r124.css`, `fx-pack-*.webp`):**
+  - Raios e anel de luz ao rasgar o pacote; raios dourados girando atrás das cartas raras; halo arco-íris + raios brancos nas holo; brilhinhos piscando por cima. Só CSS, sem mudar sorteio.
+- **Ícones Pocket na mesa e no dock (`ai-rules.js`, `match-tfSzEL_l.js`, `index-D85to97h.js`, `pocket-assets-r123.css`):**
+  - Novas marcas de efeito: Defesa, Carga, Cura, Recuo +/−; 7 ícones de efeito redesenhados; estrela animada na fraqueza; selos de deck/descarte/ferramenta; ícones de navegação e setas voltar/avançar.
+- **Coleções Neo 2–4 (escondidas até a campanha liberar):** Neo Discovery (75), Neo Revelation (66) e Neo Destiny (113, com Dark/Light/Shining/Unown), com regras de motor próprias.
+- **Neo 100%:** todos os efeitos Neo 1–4 que antes eram só texto agora funcionam (Deep Sleep, Miraculous Wind, Scare, Flash Touch, Chase, EXP.ALL, Legendary Body, travas de Mean Look/Jaw Clamp/Sticky Nectar e outros).
 
 ## R123 — 1.0.168-snapshot.123
 - **Holofoil 3D sem sobrepor quadro de evolução (`scenes-CtYWx7MK.js`):**
