@@ -1,8 +1,33 @@
-# Patch notes — da R66 até a R118
+# Patch notes — da R66 até a R120
 
-Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R118 (v1.0.163-snapshot.118)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
+Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R120 (v1.0.165-snapshot.120)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
 
 ---
+
+## R120 — 1.0.165-snapshot.120
+- **Holofoil Galaxy / Cosmos nos Detalhes da Carta 3D (`S08` / `scenes-CtYWx7MK.js`):**
+  - Novo shader **Galaxy / Cosmos** aplicado exclusivamente nas cartas `HOLOGRAPHIC` dentro do inspecionador 3D, a **50% de intensidade** (`uIntensity = 0.5`), inspirado no padrão clássico WOTC / `simeydotme`.
+  - Combina arco-íris diagonal em `color-dodge`, orbes Cosmos com paralaxe em 2 profundidades, estrelas de 4 pontas cintilantes, glitter fino e glare em `overlay` reagindo à inclinação da carta (com suporte a **Reduzir movimento** e brilho suave de repouso).
+  - Máscara UV calibrada até a borda inferior real das artes escaneadas (`FULL_PRINTING`: Pokémon clássicas e Trainer/Fossil) e das cartas procedurais, sem afetar moldura, borda amarela, grade da Coleção, mesa de duelo nem cartas `NORMAL`.
+
+## R119 — 1.0.164-snapshot.119
+- **Tela Inicial & Menu do Perfil:**
+  - Card **Online** renomeado para **Union Room** com o novo ícone orbital azul mantendo o Modo Online (`S63` / `1v1 · Trocas`) ativo.
+  - Menu do perfil (`.app-header`) corrigido para abrir sempre acima dos cartões da Tela Inicial; removido retângulo quadrado atrás da barra inferior móvel e ampliado respiro da sombra abaixo do banner da **Campanha**.
+- **Troca Relâmpago no Mapa & Nova Tela do Imakuni:**
+  - Adicionados até `3` encontros simultâneos de **Troca Relâmpago** no mapa da ilha (pino azul-turquesa/roxo `⇄`, dourado quando promo) ao lado dos `3` duelos (`!`), totalizando até `6` encontros simultâneos com mesmo intervalo (`2–5 min` chegada, `6–10 min` estadia) e **10%** de chance de troca promo.
+  - Tela de encontros do **Imakuni** repaginada (diálogo amplo com carta misteriosa, palco de troca e revelação).
+- **Union Room / Troca Online (`S63`):**
+  - Removida a caixa introdutória `"Trocas seguras..."` antes da sala de troca.
+  - Filtros rápidos e modal **Filtros da coleção** exibem somente as coleções normais em que o jogador já possui cartas, com grade ordenada como no Editor de Decks (Pokédex por tipo ou nº da coleção).
+  - Tela de conclusão de troca (`online-trade-done`) repaginada em faixas horizontais de 4 colunas acima da barra inferior.
+  - Seletor de deck da Union Room unificado com o padrão visual do Pré-duelo.
+- **Pré-duelo, Boosters, Batalha & Sam:**
+  - Seletor de deck no Pré-duelo e Union Room agora exibe ícones de Energia reais ocultando `COLORLESS` (`Double Colorless` / fallback) para manter o foco nos tipos elementais do deck.
+  - Tela **Pacotes / Boosters** compactada para caber sem rolagem vertical em `360px`.
+  - Opção de sair da **Aula do Professor Mason (Gazeta)** sem contabilizar derrota (`ABANDONED`).
+  - Corrigido sumiço momentâneo ao auto-promover o único Pokémon restante no Banco após nocaute.
+  - **Explicação do Sam no Cassino:** ao derrotar 3 membros do Clube Elétrico e liberar o Cassino, o Sam agora apresenta um guia em 3 etapas (`1/3`, `2/3`, `3/3`) explicando o que é o Cassino (caça-níquel e prêmios), como funcionam os Tickets (`10 Créditos = 1 Ticket`, apostas e ganhos no caça-níquel) e como comprar cartas exclusivas na aba **Loja Intro Pack**.
 
 ## R118 — 1.0.163-snapshot.118
 - **Sala de Troca Online modernizada (`S63` / aba Troca):**
