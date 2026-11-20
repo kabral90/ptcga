@@ -13,7 +13,7 @@ Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão pub
 - **Ícones Pocket na mesa e no dock (`ai-rules.js`, `match-tfSzEL_l.js`, `index-D85to97h.js`, `pocket-assets-r123.css`):**
   - Novas marcas de efeito: Defesa, Carga, Cura, Recuo +/−; 7 ícones de efeito redesenhados; estrela animada na fraqueza; selos de deck/descarte/ferramenta; ícones de navegação e setas voltar/avançar.
 - **Coleções Neo 2–4 (escondidas até a campanha liberar):** Neo Discovery (75), Neo Revelation (66) e Neo Destiny (113, com Dark/Light/Shining/Unown), com regras de motor próprias.
-- **Neo 100%:** todos os efeitos Neo 1–4 que antes eram só texto agora funcionam (Deep Sleep, Miraculous Wind, Scare, Flash Touch, Chase, EXP.ALL, Legendary Body, travas de Mean Look/Jaw Clamp/Sticky Nectar e outros).
+- **Neo 100% e compatibilidade de atualização:** todos os efeitos Neo 1–4 que antes eram só texto agora funcionam (Deep Sleep, Miraculous Wind, Scare, Flash Touch, Chase, EXP.ALL, Legendary Body, travas de Mean Look/Jaw Clamp/Sticky Nectar e outros), mantendo compatibilidade com o `content_hash` de `pokemon-tcg-neo1-user-images@1.0.0` em saves das versões R121–R123.
 
 ## R123 — 1.0.168-snapshot.123
 - **Holofoil 3D sem sobrepor quadro de evolução (`scenes-CtYWx7MK.js`):**
