@@ -1,6 +1,11 @@
-# Patch notes — da R66 até a R127
+# Patch notes — da R66 até a R128
 
-Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R127 (v1.0.172-snapshot.127)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
+Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R128 (v1.0.173-snapshot.128)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
+
+## R128 — 1.0.173-snapshot.128
+- **Desistir do duelo salvo (`index-D85to97h.js`, `battles-Cn81xwEW.js`):** o aviso "Há um duelo suspenso" (ao iniciar outro duelo) ganhou o botão **Desistir do duelo salvo**, que encerra o salvo como derrota sem nova confirmação e segue iniciando o duelo novo. Retomar e Cancelar continuam como antes.
+- **Gazeta (`ui-v3-r121.css`):** a barra de abas principais é uma faixa própria, com borda, sombra e cantos arredondados; em **Avulsas** cada coleção é um cartão separado; a tela de **Pacotes** fica travada (sem rolagem) e o booster ficou um pouco maior.
+- **Colecionador Viajante / Imakuni (`events-BBOmf8TN.js`, `portraits-hd-r96/imakuni-bust-r128.png`):** retrato de corpo inteiro trocado por um busto; textos e etiquetas da conversa legíveis no tema claro; falas e aviso do Sam sem "trem" (agora barco/cais, por causa do porto).
 
 ## R127 — 1.0.172-snapshot.127
 - **Johto (`johto-*-r127.js`, `johto-r127.css`, `assets/johto-r127/`):** novo mapa com oito ginásios e 64 encontros de 60 cartas (24 rotas, 32 pupilos, 8 líderes, mais rotas extras); embarque por Kanto concluído; nenhuma aba de Johto aparece antes do requisito cumprido.
