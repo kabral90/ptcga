@@ -5,6 +5,7 @@ Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão pub
 ## R128 — 1.0.173-snapshot.128
 - **Desistir do duelo salvo (`index-D85to97h.js`, `battles-Cn81xwEW.js`):** o aviso "Há um duelo suspenso" (ao iniciar outro duelo) ganhou o botão **Desistir do duelo salvo**, que encerra o salvo como derrota sem nova confirmação e segue iniciando o duelo novo. Retomar e Cancelar continuam como antes.
 - **Gazeta (`ui-v3-r121.css`):** a barra de abas principais é uma faixa própria, com borda, sombra e cantos arredondados; em **Avulsas** cada coleção é um cartão separado; a tela de **Pacotes** fica travada (sem rolagem) e o booster ficou um pouco maior.
+- **Atualizador (`app-update.js`):** a versão interna do jogo passou a ser a R128 (antes ficava na R127 e a atualização era oferecida em loop).
 - **Colecionador Viajante / Imakuni (`events-BBOmf8TN.js`, `portraits-hd-r96/imakuni-bust-r128.png`):** retrato de corpo inteiro trocado por um busto; textos e etiquetas da conversa legíveis no tema claro; falas e aviso do Sam sem "trem" (agora barco/cais, por causa do porto).
 
 ## R127 — 1.0.172-snapshot.127
