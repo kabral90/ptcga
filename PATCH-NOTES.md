@@ -1,6 +1,37 @@
-# Patch notes — da R66 até a R124
+# Patch notes — da R66 até a R127
 
-Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R124 (v1.0.169-snapshot.124)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
+Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R127 (v1.0.172-snapshot.127)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
+
+## R127 — 1.0.172-snapshot.127
+- **Johto (`johto-*-r127.js`, `johto-r127.css`, `assets/johto-r127/`):** novo mapa com oito ginásios e 64 encontros de 60 cartas (24 rotas, 32 pupilos, 8 líderes, mais rotas extras); embarque por Kanto concluído; nenhuma aba de Johto aparece antes do requisito cumprido.
+- **Neo Genesis, Discovery, Revelation e Destiny:** boosters liberados por etapa de Johto (Neo 1 na chegada, Neo 2 após 3 líderes, Neo 3 após 6, Neo 4 após o Retorno Rocket); decks temáticos Neo (550/600/650 créditos).
+- **Cartas avulsas na Gazeta (`johto-content-r127.js`):** todas as cartas de Base, Jungle, Fossil, Rocket, Gym 1, Gym 2 e Neo 1–4 são vendidas conforme a coleção libera; Pokémon VS não é vendida avulsa; energia básica 2 créditos.
+- **Valores individuais e prestígio (`market-base.js`, `neo-values-r127.js`):** cada carta Neo tem valor próprio; lista de prestígio aplicada a 202 cartas (Charizard, Lugia, Shining, lendários e iniciais sobem; valores inflados descem); teto 2.500. Versão da tabela `prestige-v1-r128`.
+- **Retorno Rocket, Victory Road, Liga e Mark:** Mahogany; Victory Road com cinco duelos; Liga com Will, Janine, Bruno, Karen e Lance; Mark sozinho no cume do Mt. Silver, com apresentação e revanche.
+- **Kanto:** Rockets de Celadon e da Silph Co.; Grande Salão na Ilha antes de Kanto.
+- **Feiras de troca (`fair-regions-r94.js`, `fair-engine.js`, mapas):** três feiras com ícone próprio (Ilha: quatro coleções principais; Celadon e Goldenrod abrem sem precisar vencer Erika/Whitney); seis trocas por feira; nunca aparecem VS, Intro, GB, Vending nem Promo.
+- **Eventos da Gazeta em abas (`events-mosaic-r98.js/.css`):** Hoje, Semana e Especiais, com ponto de aviso quando há prêmio; as regras dos eventos não mudaram.
+- **Editor de baralhos (`index-D85to97h.js`):** Pokémon Shining e Miracle Energy limitados a 1 cópia; Unown a 4 cartas no total.
+- **Prêmios:** primeira vitória e revanches revisadas (revanche só com boosters); moeda recebida com animação própria.
+
+---
+
+## R126 — 1.0.171-snapshot.126
+- **Abertura da Vending Machine com lata 3D (`booster-can-r112.js`, `booster-can-r112.css`, `can-wrap.svg`):**
+  - Tela temática própria, com a lata 3D em CSS e a logo; puxar a lata toca som, a lata abre com bolhas, some em fade e aparecem as cartas tiradas. Textura da lata sem emendas e sem metade mais clara; barra de botões sempre visível.
+- **Máquina redesenhada (`scene-CiwHyPD9.js`):** corpo azul, latas com o mesmo rótulo da lata nova e faixas coloridas sobre o compartimento "RETIRE AQUI".
+- **Bone Counter com arte própria (`bone-counter.webp`, `match-tfSzEL_l.js`, `ai-rules.js`):** ícone do osso na mesa; o ataque *Search for Bone* coloca um Bone Counter se o Pokémon não tiver nenhum.
+- **Cartas GB corrigidas (`intro-gb-cards-r103.js`, `ronald-gb-eeveelutions.js`):** Pidgeot (Slicing Wind), Electrode (Sonicboom), Mew (Mystery Attack), Marowak (Wail), Ditto (PS 50) e Flareon (Rage, custo 3).
+- **Promos auditadas** contra o texto das cartas verificadas: nenhuma divergência.
+- **Pacotes:** a tela preenche o espaço vazio e as cartas passam de forma mais suave na abertura.
+
+## R125 — 1.0.170-snapshot.125
+- **Removidos:** animações de ataque estilo Game Boy e o interruptor em Ajustes; cruz amarela ao curar; flash amarelo ao receber golpe (`match-tfSzEL_l.js`, `system-DjmEcSme.js`, `index-otevawBu.css`).
+- **Animações sempre ativas** (não seguem mais *Reduzir movimento* do sistema) nas telas de clube, Kanto, Hall e base Rocket.
+- **Vending Machine:** Kadabra (Psy Panic, Energy Restore, Energy Shock), Alakazam, Arbok (Deadly Poison) e mais de 20 ataques revisados; 16 ataques que não faziam nada agora têm efeito; Pokémon Tower impede descartar para a mão (`vending-expansion-r112.js`, `ai-rules.js`).
+- **Fiel ao texto, sem simplificações:** Caterpie/Tangela (bloqueio de troca), Weepinbell (devolve para o baralho), Boulder Smash/Water Bomb (dano no Banco por unidade).
+- **Coleção VS auditada** contra o texto impresso (144 cartas, 176 ataques, 26 TMs): nenhuma divergência.
+- Textos de destaque (`printedRuleTextPt`) corrigidos nas cartas alteradas.
 
 ---
 
