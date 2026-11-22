@@ -1,10 +1,10 @@
 # Pokémon TCG Clássico — APK
 
-Versão mais recente: **Snapshot R134** — `1.0.179-snapshot.134` (versionCode 10181)
+Versão mais recente: **Snapshot R136** — `1.0.181-snapshot.136` (versionCode 10183)
 
 - Pacote: `com.juan.pokemontcg.roadmap`
-- Arquivo: `pokemon-tcg-snapshot-r134.apk` (364.368.927 bytes), disponível na aba **Releases**
-- SHA256: `a2c047d77302c7e68dde3e2983e9da3193d7f47eee2158ed3c4370e394ccdf13`
+- Arquivo: `pokemon-tcg-snapshot-r136.apk` (364.368.926 bytes), disponível na aba **Releases**
+- SHA256: `81259ce5debf454e095d7f31a944f57432d341dc0e9379cab9b89740e0529ee5`
 - Assinatura v1/v2/v3, com o mesmo certificado das versões anteriores (`eb59871306060c646cd8059aa8c60adc6baf72faa19c166c45331c1702096537`); instala por cima da versão antiga sem perder o save.
 
 O jogo consulta a Release mais recente deste repositório ao abrir e o Sam oferece a atualização.

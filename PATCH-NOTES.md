@@ -1,6 +1,15 @@
-# Patch notes — da R66 até a R134
+# Patch notes — da R66 até a R136
 
-Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R134 (v1.0.179-snapshot.134)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
+Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R136 (v1.0.181-snapshot.136)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
+
+## R136 — 1.0.181-snapshot.136
+- **Barraca da feira (`fair-design-r132.css`):** cartões em 3 colunas; a barraca cabe inteira sem rolagem.
+- **Aviso do duelo (`index-otevawBu.css`, `match-tfSzEL_l.js`):** a caixa cresce na altura para mostrar o texto inteiro (fonte 13px); o aviso "Arraste um Pokémon do Banco" quebra linha e fica dentro da tela.
+- **Lata de booster (`booster-can-r112.css`):** removido o retângulo de brilho fixo que ficava atrás da lata 3D.
+- **Mesa (`mesa-r100.css`):** contador do deck do adversário no lado direito, como o do jogador.
+
+## R135 — 1.0.180-snapshot.135
+- **Moeda do adversário (`index-D85to97h.js`):** líderes e pupilos de ginásio (Kanto e Johto) usam a moeda do líder; pupilos e mestres de clube usam a moeda do mestre; Rocket usa a GR. Antes o preset padrão já vinha com a Chansey e a troca nunca acontecia.
 
 ## R134 — 1.0.179-snapshot.134
 - **Snorlax em Kanto (`snorlax-trade-r134.js`, `battles-Cn81xwEW.js`, `kanto-map-r74.js`):** dois pontos de troca especial depois do ginásio de Celadon. Estrada ao sul de Lavender: 1 Poké Flute pela moeda do Snorlax. Ponte da Cycling Road: 1 Poké Flute pela carta Hungry Snorlax. A rota e o ginásio de Fuchsia ficam bloqueados até fazer pelo menos uma; saves que já avançaram em Fuchsia não travam. Aviso de última cópia ou carta usada em deck, com confirmação.
