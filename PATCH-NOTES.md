@@ -1,6 +1,16 @@
-# Patch notes — da R66 até a R133
+# Patch notes — da R66 até a R134
 
-Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R133 (v1.0.178-snapshot.133)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
+Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R134 (v1.0.179-snapshot.134)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
+
+## R134 — 1.0.179-snapshot.134
+- **Snorlax em Kanto (`snorlax-trade-r134.js`, `battles-Cn81xwEW.js`, `kanto-map-r74.js`):** dois pontos de troca especial depois do ginásio de Celadon. Estrada ao sul de Lavender: 1 Poké Flute pela moeda do Snorlax. Ponte da Cycling Road: 1 Poké Flute pela carta Hungry Snorlax. A rota e o ginásio de Fuchsia ficam bloqueados até fazer pelo menos uma; saves que já avançaram em Fuchsia não travam. Aviso de última cópia ou carta usada em deck, com confirmação.
+- **Hungry Snorlax (`intro-gb-cards-r103.js`, `ai-rules.js`, `match-tfSzEL_l.js`, `food-counter.webp`):** GB Promo GB-143. Swallow Food coloca 1 Food counter (máx. 2); Full Belly Rollout remove todos e causa 20 + 30 por contador. Ícone de Food counter na mesa.
+- **Marowak (`bone-counter.webp`):** novo ícone do Bone Counter (Rare Bone).
+- **Cartas Dark GB (`intro-gb-cards-r103.js`, `ai-rules.js`, `gb-reserved/dark*.webp`):** Dark Haunter, Dark Gengar (Play Tricks), Dark Marowak, Dark Ninetales (Mislead: oponente pula a compra) e Dark Starmie (Rebirth). Entregues ao vencer o líder do Esconderijo Rocket de Celadon (também para quem já venceu).
+- **Giovanni (`index-D85to97h.js`, `intro-gb-cards-r103.js`):** além de créditos e boosters, dá a moeda Nidoking e a carta Giovanni's Nidoking (GB-034; Command dá +10 aos Giovanni's Nidoran♂ e Nidorino; Rumble impede o recuo).
+- **Limite por nome:** cartas GB com o mesmo nome de cartas de outras coleções (Dark Haunter, Dark Gengar, Giovanni's Nidoking) dividem o limite de 4 cópias.
+- **Moedas (`index-D85to97h.js`, `coins-Bfxy3e5W.js`, `coins/*.png`):** Vileplume (Nikki), Nidoking (Giovanni), 8 moedas dos líderes de Johto, Persian, Jigglypuff; nova moeda GR da Equipe Rocket ao vencer o Chefe Rocket da primeira ilha (os Rockets também passam a usá-la). Moedas-surpresa do Sam removidas.
+- **Atualizador (`app-update.js`):** versão interna R134.
 
 ## R133 — 1.0.178-snapshot.133
 - **Feiras regionais (`fair-design-r132.js`, `fair-design-r132.css`, `fair-scenes-r132/*.png`, `fair-ui.js`, `fair-stalls-r129.js`, `index.html`):** Ilha, Celadon e Goldenrod com cenário e paleta próprios; banner sem ícone sobreposto; seis participantes e três bolinhas de exigência. **Negociar** abre troca 1:1 (sua carta à esquerda, a do NPC à direita, com escolha e filtros); **Barraquinha** abre só Comprar e Vender. Preços em ₽, cartas inteiras e ação em rodapé separado. Regras, economia e persistência preservadas. Integração feita pelo Gemini.
