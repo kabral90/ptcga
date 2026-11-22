@@ -1,6 +1,22 @@
-# Patch notes — da R66 até a R130
+# Patch notes — da R66 até a R133
 
-Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R130 (v1.0.175-snapshot.130)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
+Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R133 (v1.0.178-snapshot.133)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
+
+## R133 — 1.0.178-snapshot.133
+- **Feiras regionais (`fair-design-r132.js`, `fair-design-r132.css`, `fair-scenes-r132/*.png`, `fair-ui.js`, `fair-stalls-r129.js`, `index.html`):** Ilha, Celadon e Goldenrod com cenário e paleta próprios; banner sem ícone sobreposto; seis participantes e três bolinhas de exigência. **Negociar** abre troca 1:1 (sua carta à esquerda, a do NPC à direita, com escolha e filtros); **Barraquinha** abre só Comprar e Vender. Preços em ₽, cartas inteiras e ação em rodapé separado. Regras, economia e persistência preservadas. Integração feita pelo Gemini.
+- **Atualizador (`app-update.js`):** versão interna R133.
+
+## R132 — 1.0.177-snapshot.132
+- **Tipo da semana (`index-D85to97h.js`, `events-mosaic-r98.js`):** na 5ª vitória o booster não entra mais sozinho; o card e a linha do evento mostram "Resgatar" e o botão "Resgatar booster". Semanas já concluídas antes não geram resgate extra.
+- **Eventos (`events-mosaic-r98.js`):** a Aula do Professor Mason sai do rodapé e fica acima do cartão do dia.
+- **Escolha de Energia (`match-tfSzEL_l.js`):** o descarte de Energia (golpe, Treinador, recuo) mostra a carta de Energia, com legenda do Pokémon, em vez de ícone e texto.
+- **Mesa (`mesa-r100.css`, `match-tfSzEL_l.js`):** contador do deck do adversário colado ao canto do deck; o cabeçalho do adversário não mostra mais o nível e o turno.
+- **Atualizador (`app-update.js`):** versão interna R132.
+
+## R131 — 1.0.176-snapshot.131
+- **Troca de posição (`match-tfSzEL_l.js`):** a carta que muda de lugar (banco para ativo, recuo, Switch, promoção) não aparece mais piscando no destino antes de deslizar; ela fica oculta até a animação começar.
+- **IA (`ai-worker-BI9LqZXq.js`):** ao passar do limite de 7 cartas na mão, a IA descarta primeiro as cartas de menor valor (antes escolhia as de maior valor, como energia). O Professor Oak deixa de ser jogado com energia na mão ou com a mão cheia, quando a energia do turno ainda não foi ligada.
+- **Atualizador (`app-update.js`):** versão interna R131.
 
 ## R130 — 1.0.175-snapshot.130
 - **Gazeta por região (`gideon-r129.js`, `gideon-r129.webp`, `tanaka-r129.webp`):** Gideon (Gazeta de Kanto) anuncia Gym Heroes e Gym Challenge; Tanaka (Gazeta de Johto) anuncia Neo 1 a 4 e VS. A janela de fala mostra o nome e o retrato de quem fala.
