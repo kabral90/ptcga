@@ -1,6 +1,18 @@
-# Patch notes — da R66 até a R136
+# Patch notes — da R66 até a R138
 
-Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R136 (v1.0.181-snapshot.136)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
+Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R138 (v1.0.183-snapshot.138)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
+
+## R138 — 1.0.183-snapshot.138
+- **Arrastar do Banco (`match-tfSzEL_l.js`):** a carta arrastada fica ~0,95 largura acima do dedo; alvo de soltar calculado no mesmo ponto.
+- **Avisos (`index-otevawBu.css`):** mensagens acima do botão Informações (z-index 30).
+- **Troca Relâmpago (`club-island-r72.js`):** raridade por extenso (carta Comum/Incomum/Rara).
+- **Muk (`ai-rules.js`):** marca de Toxic Gas só em Pokémon com habilidade (Pokémon Power).
+- **Decks (`decks-BKo9xSNp.js`):** aba Deck Gen 2 só aparece com Johto alcançado.
+- **Escolher deck (`download-BiFiwrDT.js`, `index-otevawBu.css`):** seletor em lista vertical, como o cartão Seu deck.
+- **Atualizador (`app-update.js`):** versão interna R138.
+
+## R137 — 1.0.182-snapshot.137
+- **IA (`ai-worker-BI9LqZXq.js`):** depois de escolher um ataque cujo dano depende de moeda, a IA confere os ataques fixos disponíveis e troca para o fixo se ele nocauteia com certeza ou dá pelo menos o dano médio do ataque de moeda (antes o Nidorino insistia no Double Kick em vez do Horn Drill).
 
 ## R136 — 1.0.181-snapshot.136
 - **Barraca da feira (`fair-design-r132.css`):** cartões em 3 colunas; a barraca cabe inteira sem rolagem.
