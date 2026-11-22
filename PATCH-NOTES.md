@@ -1,6 +1,20 @@
-# Patch notes — da R66 até a R128
+# Patch notes — da R66 até a R130
 
-Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R128 (v1.0.173-snapshot.128)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
+Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R130 (v1.0.175-snapshot.130)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
+
+## R130 — 1.0.175-snapshot.130
+- **Gazeta por região (`gideon-r129.js`, `gideon-r129.webp`, `tanaka-r129.webp`):** Gideon (Gazeta de Kanto) anuncia Gym Heroes e Gym Challenge; Tanaka (Gazeta de Johto) anuncia Neo 1 a 4 e VS. A janela de fala mostra o nome e o retrato de quem fala.
+- **Decks Gen 1 e Gen 2 (`deck-gen-r129.js`, `decks-BKo9xSNp.js`, `index-D85to97h.js`):** a aba Decks ganha Deck Gen 1, Deck Gen 2 e Modelos. Gen 1 não aceita cartas Neo/VS e não pode ser usado em Johto; Gen 2 aceita no máximo 15 cartas de outras regiões (energias básicas não contam) e vale em Johto, Kanto e na Ilha. A regra vale na montagem do deck.
+- **Johto (`johto-deck-rule-r129.js`, `battles-Cn81xwEW.js`, `johto-ui-r127.js`):** os duelos de Johto só aceitam deck Gen 2 e o seletor esconde os Gen 1. No primeiro encontro sem deck Gen 2 válido, o Tanaka explica a regra e entrega um deck do Neo Genesis à escolha (Cold Fusion ou Hotfoot), uma única vez.
+
+## R129 — 1.0.174-snapshot.129
+- **Barraquinhas das feiras (`trade-engine-r129.js`, `fair-stalls-r129.js`, `fair-ui.js`):** cada NPC tem uma barraquinha que vende e compra cartas, com preços acima ou abaixo da Gazeta do dia; negociação com contrapropostas, troco opcional e paciência sorteada.
+- **Feira aos sábados e domingos (`fair-engine.js`):** a janela da feira agora abre nos dois dias.
+- **Gazeta noturna (`gazeta-night-r129.js`, `sam-pijama-r129.webp`):** opção nos Ajustes para a Gazeta fechar das 22h às 8h; Sam de pijama; Saldão da madrugada com 3 cartas e pacotes em promoção.
+- **Trocas:** a tela antiga de Trocas não aparece mais ao fechar a Feira (a janela abre direto pelo mapa).
+- **Side deck (`pocket-assets-r123.css`):** texto não vaza mais por trás do cabeçalho.
+- **Coleção:** aba Receitas removida.
+- **Duelo:** dano de confusão considera Fraqueza e Resistência; animação de troca corrigida; tabela balanceada.
 
 ## R128 — 1.0.173-snapshot.128
 - **Desistir do duelo salvo (`index-D85to97h.js`, `battles-Cn81xwEW.js`):** o aviso "Há um duelo suspenso" (ao iniciar outro duelo) ganhou o botão **Desistir do duelo salvo**, que encerra o salvo como derrota sem nova confirmação e segue iniciando o duelo novo. Retomar e Cancelar continuam como antes.
