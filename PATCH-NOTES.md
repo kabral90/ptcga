@@ -1,6 +1,12 @@
-# Patch notes — da R66 até a R138
+# Patch notes — da R66 até a R139
 
-Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R138 (v1.0.183-snapshot.138)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
+Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R139 (v1.0.184-snapshot.139)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
+
+## R139 — 1.0.184-snapshot.139
+- **Mapa da Ilha (`club-island-r72.js`):** todo toque primário descarta ponteiros antigos guardados, evitando uma pinça falsa que fazia o mapa pular ao dar zoom.
+- **Tapete (`balanced-table-r128.css`):** pokébola do adversário (posição 107%) e a sua (-4,6%) centralizadas no Ativo.
+- **Escolher deck (`index-otevawBu.css`):** título fixo, lista rolável com folga, linhas compactas e fundo branco.
+- **Atualizador (`app-update.js`):** versão interna R139.
 
 ## R138 — 1.0.183-snapshot.138
 - **Arrastar do Banco (`match-tfSzEL_l.js`):** a carta arrastada fica ~0,95 largura acima do dedo; alvo de soltar calculado no mesmo ponto.
