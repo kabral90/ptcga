@@ -1,6 +1,27 @@
-# Patch notes — da R66 até a R139
+# Patch notes — da R66 até a R144
 
-Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R139 (v1.0.184-snapshot.139)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
+Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R143 (v1.0.188-snapshot.143)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
+
+## R144 — 1.0.189-snapshot.144
+- **Editor de decks.** Compartilhe por código e importe como rascunho, com uma prévia das cópias que faltam. O código funciona sem servidor.
+- **Filtro por efeito.** Encontre cartas que compram cartas, recuperam Energia do descarte ou forçam a troca do Ativo adversário.
+- **Duelo local.** Calcule o dano fixo contra o Ativo antes de atacar, pelo botão ou ao segurar o ataque.
+
+## R143 — 1.0.188-snapshot.143
+- **Saves (`saves-DKH3E--r.js`):** tentativa com `deckId`/`deckRevision` pela metade não bloqueia mais a importação do save (nuvem e backup).
+- **Atualizador (`app-update.js`):** versão interna R143.
+
+## R142 — 1.0.187-snapshot.142
+- **Mewtwo Vending (`vending-expansion-r112.js`):** Psycho Crash conta todas as Energias ligadas aos Pokémon do oponente, como na carta original (antes contava só Energia Psíquica).
+- **Atualizador (`app-update.js`):** versão interna R142.
+
+## R141 — 1.0.186-snapshot.141
+- **Escolher deck (`index-otevawBu.css`):** a janela de fora tinha `backdrop-filter` (do `ui-v3-r121.css`), que prendia a lista de decks dentro dela; desligado enquanto a lista está aberta.
+- **Atualizador (`app-update.js`):** versão interna R141.
+
+## R140 — 1.0.185-snapshot.140
+- **Escolher deck (`download-BiFiwrDT.js`, `index-otevawBu.css`):** janela própria (`.rdp-overlay`/`.rdp-sheet`), sem a classe `.modal` que o `ui-v3-r121.css` força; título fixo e só a lista rola.
+- **Atualizador (`app-update.js`):** versão interna R140.
 
 ## R139 — 1.0.184-snapshot.139
 - **Mapa da Ilha (`club-island-r72.js`):** todo toque primário descarta ponteiros antigos guardados, evitando uma pinça falsa que fazia o mapa pular ao dar zoom.

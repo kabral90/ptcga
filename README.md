@@ -1,14 +1,10 @@
-# Pokémon TCG Clássico — APK
+# Pokémon TCG Clássico — R144
 
-Versão mais recente: **Snapshot R139** — `1.0.184-snapshot.139` (versionCode 10186)
+- Versão `1.0.189-snapshot.144` e código Android `10191`.
+- Pacote `com.juan.pokemontcg.roadmap`.
+- APK `pokemon-tcg-snapshot-r144.apk` (361.385.653 bytes).
+- SHA-256: `c21def0f40f933cff1a1112e5076d64741dc3bd5ffddd94a50de6b2ec1624a5d`.
+- O checksum do APK assinado acompanha a release em `pokemon-tcg-snapshot-r144.apk.sha256`.
+- Notas completas em [PATCH-NOTES.md](PATCH-NOTES.md).
 
-- Pacote: `com.juan.pokemontcg.roadmap`
-- Arquivo: `pokemon-tcg-snapshot-r139.apk` (364.368.927 bytes), disponível na aba **Releases**
-- SHA256: `a5a20685f5dbd4c03118ae3d6d0de4a2ae70824034b8ac3deeb44ce2a0c9f4ae`
-- Assinatura v1/v2/v3, com o mesmo certificado das versões anteriores (`eb59871306060c646cd8059aa8c60adc6baf72faa19c166c45331c1702096537`); instala por cima da versão antiga sem perder o save.
-
-O jogo consulta a Release mais recente deste repositório ao abrir e o Sam oferece a atualização.
-
-O APK fica nas Releases porque o GitHub não aceita arquivos acima de 100 MB dentro do código.
-
-Todas as mudanças desde a R66: [PATCH-NOTES.md](PATCH-NOTES.md)
+Para montar o kit no Windows, coloque o APK assinado em `outputs` e execute `publicar-ptcga.bat`. O script verifica a versão e o certificado original antes de gerar o checksum. A publicação no GitHub é uma ação separada e exige confirmação no script. `apksigner` e `aapt` devem estar no PATH ou ser definidos nas variáveis `APKSIGNER` e `AAPT`.
