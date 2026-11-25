@@ -1,6 +1,11 @@
-# Patch notes — da R66 até a R158
+# Patch notes — da R66 até a R159
 
 Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R143 (v1.0.188-snapshot.143)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
+
+## R159 — 1.0.204-snapshot.159
+- **Coleção (`collection-ql6t224N.js`, `sets-BpIFeo0Q.js`, `neo-sets/`):** logos e símbolos dos sets Neo 1 a 4 (Genesis, Discovery, Revelation, Destiny) voltam a aparecer nas coleções e nos filtros. Os sets Neo ganham chip no filtro quando o jogador tem cartas deles.
+- **Coleção:** as Energias do VS (143 a 151) compartilham a definição com as Energias comuns e nunca apareciam; agora ganham linha própria no grupo VS quando obtidas, e o filtro VS aparece.
+- **Atualizador (`app-update.js`):** versão interna R159.
 
 ## R158 — 1.0.203-snapshot.158
 - **Abertura do jogo (`index-D85to97h.js`):** a instalação das 16 impressões faltantes falhava com erro de chave estrangeira (SQLITE_CONSTRAINT_FOREIGNKEY) por faltar a definição das 7 cartas GB; o erro era lançado como exceção e travava o carregamento. Agora a definição também vem do pacote GB, e qualquer falha é capturada sem travar o jogo.
