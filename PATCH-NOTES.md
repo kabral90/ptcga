@@ -5,6 +5,7 @@ Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão pub
 ## R159 — 1.0.204-snapshot.159
 - **Coleção (`collection-ql6t224N.js`, `sets-BpIFeo0Q.js`, `neo-sets/`):** logos e símbolos dos sets Neo 1 a 4 (Genesis, Discovery, Revelation, Destiny) voltam a aparecer nas coleções e nos filtros. Os sets Neo ganham chip no filtro quando o jogador tem cartas deles.
 - **Coleção:** as Energias do VS (143 a 151) compartilham a definição com as Energias comuns e nunca apareciam; agora ganham linha própria no grupo VS quando obtidas, e o filtro VS aparece.
+- **Coleção (VS):** o grupo VS é ordenado pelo número da carta no set; as Energias (143 a 151) ficam depois da última carta, e não no início. O grupo VS também passa a ficar depois da Neo 4 na lista de coleções.
 - **Atualizador (`app-update.js`):** versão interna R159.
 
 ## R158 — 1.0.203-snapshot.158
