@@ -1,6 +1,78 @@
-# Patch notes — da R66 até a R144
+# Patch notes — da R66 até a R158
 
 Todas as mudanças desde a **R66 (v1.0.111-snapshot.66)**, a última versão publicada aqui, até a **R143 (v1.0.188-snapshot.143)**. Da mais nova para a mais antiga. Cada versão inclui tudo o que veio antes.
+
+## R158 — 1.0.203-snapshot.158
+- **Abertura do jogo (`index-D85to97h.js`):** a instalação das 16 impressões faltantes falhava com erro de chave estrangeira (SQLITE_CONSTRAINT_FOREIGNKEY) por faltar a definição das 7 cartas GB; o erro era lançado como exceção e travava o carregamento. Agora a definição também vem do pacote GB, e qualquer falha é capturada sem travar o jogo.
+- **godmode:** destranca a coleção GB (sem "?") e dispensa os avisos do Sam sobre ela.
+- **Coleção (`sets-BpIFeo0Q.js`):** o Intro Pack volta a usar a própria logo, não a da GB.
+- **Atualizador (`app-update.js`):** versão interna R158.
+
+## R157 — 1.0.202-snapshot.157
+- **Banco de cartas / godmode (`index-D85to97h.js`):** cada uma das 16 impressões faltantes agora é instalada em pacote próprio (sem cartas e, se falhar, com a definição), então uma falha não derruba as outras. Se algo ainda for pulado, a mensagem do resgate mostra o erro real do banco.
+- **Atualizador (`app-update.js`):** versão interna R157.
+
+## R156 — 1.0.201-snapshot.156
+- **Código `godmode2` (`index-D85to97h.js`):** completa até 4 cópias de cada carta, entregando só o que faltar. Serve para quem já resgatou o `godmode` e ficou sem as 16 impressões que a R155 passou a registrar.
+- **Atualizador (`app-update.js`):** versão interna R156.
+
+## R155 — 1.0.200-snapshot.155
+- **Banco de cartas (`index-D85to97h.js`):** 16 impressões nunca tinham sido registradas no banco dos jogadores que já tinham o jogo instalado: as 9 Energias do VS (Grass, Fire, Water, Lightning, Psychic, Fighting, Rainbow, Darkness, Metal) e 7 artes extras do GB (Hungry Snorlax, Dark Haunter, Dark Gengar, Dark Marowak, Dark Ninetales, Dark Starmie, Giovanni's Nidoking). Um pacote complementar (`pokemon-tcg-printing-fix-r155`) registra só elas ao abrir o jogo; se falhar, o jogo abre normalmente. Isso faz o `godmode` entregar todas.
+- **Atualizador (`app-update.js`):** versão interna R155.
+
+## R154 — 1.0.199-snapshot.154
+- **Código `godmode` (`index-D85to97h.js`):** corrigido o erro `FOREIGN KEY constraint failed` da R153. Agora as cartas são concedidas em blocos e as que o banco não reconhece são puladas; a mensagem lista quais (nome e código).
+- **Atualizador (`app-update.js`):** versão interna R154.
+
+## R153 — 1.0.198-snapshot.153
+- **Vending Machine (`vending-expansion-r112.js`):** o texto do Hydro Pump do Poliwrath, o do Water Spout do Shellder e o do Water Gun do Horsea agora saem iguais aos do Blastoise/Poliwrath da Base ("mais 10 para cada Energia de Água… não pode somar mais de 20"). O dano não mudou.
+- **Vending Machine, 12 ataques corrigidos (`vending-expansion-r112.js`, `ai-rules.js`):**
+  - Gastly, Frighten: o adversário não pode jogar cartas de Treinador no próximo turno dele.
+  - Machamp, Seething Anger: texto corrigido (moedas = contadores de dano no Machamp; 20 + 10 por cara).
+  - Paras, Scatter Spores: agora é um Call for Family (procura 1 Paras no baralho e coloca no Banco).
+  - Pikachu, Thunderbolt, e Mewtwo, Complete Recovery: "descarte todas as Energias" (antes aparecia 99).
+  - Graveler, Stone Barrage: igual ao do Geodude (Fóssil), mas 20 por cara, jogando moedas até sair coroa.
+  - Magneton, Microwave: 20 de dano a 1 Pokémon aleatório do adversário, sem Fraqueza e Resistência; moeda, e se der cara descarta 1 Energia desse Pokémon.
+  - Kingler, Double-Edged Claw: no próximo turno do oponente o Kingler recebe o dobro do dano (depois de Fraqueza e Resistência).
+  - Venonat, Disable: com cara, escolhe 1 ataque do Defensor, que não pode ser usado no próximo turno (se ele só tiver 1 ataque, é esse).
+  - Machop, Focused Strike: com cara o Corkscrew Punch causa 60; com coroa o Machop não pode usar o Corkscrew Punch (antes travava todos os ataques).
+  - Slowbro, Big Snore: só pode ser usado com o Slowbro Adormecido (e agora um Pokémon Adormecido consegue usá-lo).
+  - Pidgeotto, Twister: se não Nocautear o Defensor, joga moeda; com cara devolve todas as Energias e Treinadores ligados ao Defensor para a mão do oponente (o Pokémon fica em jogo).
+- **Textos (`ai-rules.js`):** Squirtle do Intro Pack, Water Power (Pound triplicado: 30) e Arcanine promo, Flames of Rage (descarte 2 Energias de Fogo para usar; 40 + 10 por contador de dano) com texto em português corrigido. Os efeitos já estavam certos.
+- **Código de resgate (`index-D85to97h.js`):** `godmode` dá 4 cópias de cada carta do jogo (vale uma vez por perfil). Só para testes.
+- **Motor (`ai-rules.js`):** operação nova `VEND_RETURN_ATTACHED`, condição nova `DEFENDING_SURVIVES`, `HALVE_DAMAGE` com `double`, e textos em português para "escolher ataque" (também vale para Amnesia) e para contadores de dano.
+- **Atualizador (`app-update.js`):** versão interna R153.
+
+## R152 — 1.0.197-snapshot.152
+- **Trocas aleatórias (`island-encounters-r73.js`):** voltam a aparecer espalhadas pela ilha, nos mesmos pontos dos duelos (desde a R121 só apareciam no Porto).
+
+## R151 — 1.0.196-snapshot.151
+- **Editor de decks, filtro de efeito (`deck-tools.js`):** duas opções novas: Previne dano (como Agility) e Diminui dano (como Snivel, Defender, redução de dano recebido e dano pela metade). Conferido em todas as coleções.
+- **Atualizador (`app-update.js`):** versão interna R151.
+
+## R150 — 1.0.195-snapshot.150
+- **Editor de decks, filtro de efeito (`deck-tools.js`):** duas opções novas: Cura HP e Cura status negativo (ataques, Poderes e Treinadores que curam o próprio lado).
+- **Atualizador (`app-update.js`):** versão interna R150.
+
+## R149 — 1.0.194-snapshot.149
+- **Editor de decks, filtro de efeito (`deck-tools.js`):** 11 opções novas: deixa envenenado, confuso, dormindo, paralisado; com Poké-Power; ataque puro (sem efeito nem moeda); ataque com moedas; descarta Energia do usuário; descarta Energia do adversário; atinge o Banco do adversário; atinge o próprio Banco. As opções vêm dos dados reais dos ataques (conferido nas coleções Neo 1–3, VS e Vending).
+- **Atualizador (`app-update.js`):** versão interna R149.
+
+## R148 — 1.0.193-snapshot.148
+- **Tipo Dragão removido por completo** (`ai-rules.js`, `collection-ql6t224N.js`, `online-ui-r117.js`): sai da lista de tipos e dos rótulos, e deixa de ser tratado como tipo escondido nos filtros. Nenhuma carta usa esse tipo.
+- **Atualizador (`app-update.js`):** versão interna R148.
+
+## R147 — 1.0.192-snapshot.147
+- **Coleção (`collection-ql6t224N.js`):** os símbolos de Noturno e Metálico no filtro de tipo só aparecem depois de chegar a Johto (`johtoReached`), antes não apareciam escondidos.
+- **Decks (`index-otevawBu.css`):** corrige a posição da barra de ações da R146 (fixa acima da barra de baixo, lista termina acima dela).
+- **Atualizador (`app-update.js`):** versão interna R147.
+
+## R146 — 1.0.191-snapshot.146
+- **Decks (`index-otevawBu.css`):** a barra de ações do deck selecionado (jogar, editar, copiar, capa, favorito, baixar, apagar) fica fixa logo acima da barra de baixo e a lista de decks rola acima dela, sem passar por trás.
+- **Atualizador (`app-update.js`):** versão interna R146.
+
+## R145 — 1.0.190-snapshot.145
+- **Compartilhamento de decks.** Os novos códigos são compactos e podem ser compartilhados como texto ou QR Code. A leitura por câmera ou galeria abre a lista e mostra as cartas que faltam antes de salvar o rascunho. Os códigos da R144 continuam compatíveis.
 
 ## R144 — 1.0.189-snapshot.144
 - **Editor de decks.** Compartilhe por código e importe como rascunho, com uma prévia das cópias que faltam. O código funciona sem servidor.
